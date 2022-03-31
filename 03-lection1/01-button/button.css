@@ -1,1 +1,106 @@
-/* Стилизация кнопки */
+.section 
+{display: flex;
+    height: 450px;
+    width: 1350px;
+    background: hsl(20, 2%, 73%);
+    align-items: center;
+}
+.section__name {
+    height: 75%; 
+    width: 20%;   
+}
+.section__name-header{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.section__function {
+    display: flex;
+    flex-direction: column;
+    height: 75%; 
+    width: 10%;
+    
+    justify-content: space-evenly;
+}
+.section__f-item{
+    border: none;
+    background: hsl(20, 2%, 73%);
+}
+.section__buttons {
+    display: flex;
+    height: 75%; 
+    width: 60%;
+    justify-content: space-evenly;
+}
+.primary {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: space-evenly;
+}
+.alternate__hov:hover {
+    color: #8f0d18;
+    border-bottom: rgb(90, 206, 109);
+}
+.primary__def {
+    height: 15%;
+    border-radius: 0.8em;
+    color: #FFFFFF;
+    background: #4263EB;
+}
+.primary__hov {
+    height: 15%;
+    border-radius: 0.8em;
+    color: #FFFFFF;
+    background: #2342C0;
+}
+.primary__dis {
+    height: 15%;
+    border-radius: 0.8em;
+    color: #FFFFFF;
+    background: #4263EB;
+}
+.secondary {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.secondary__def {
+    height: 15%;
+    border-radius: 0.8em;
+    color: #FFFFFF;
+    background: #7048E8;
+}
+.secondary__hov {
+    height: 15%;
+    border-radius: 0.8em;
+    color: #FFFFFF;
+    background: #5028C6;
+}
+.secondary__dis {
+    height: 15%;
+    border-radius: 0.8em;
+    color: #FFFFFF;
+    background: #7048E8;
+}
+.alternate {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.alternate__def {
+    height: 15%;
+    border-radius: 0.8em;
+    color: #a39d9d;
+}
+.alternate__hov {
+    height: 15%;
+    border-radius: 0.8em;
+    color: #999494;
+}
+.alternate__dis {
+    height: 15%;
+    border-radius: 0.8em;
+    color: #696666;
+}
